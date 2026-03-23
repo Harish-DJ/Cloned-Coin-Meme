@@ -1,0 +1,17 @@
+# Web framework
+fastapi
+uvicorn[standard]
+
+# ML
+scikit-learn
+xgboost
+numpy
+
+# NLP / Sentiment
+vaderSentiment
+transformers
+torch
+
+# Utilities
+pydantic
+python-dotenv

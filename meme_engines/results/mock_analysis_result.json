@@ -1,0 +1,201 @@
+{
+    "metadata": {
+        "analysis_timestamp": "2026-03-23T16:59:52.227016+00:00",
+        "total_posts_processed": 525,
+        "engines_active": [
+            "TextCleaningEngine",
+            "SentimentEngine (Twitter-RoBERTa)",
+            "EngagementMetadataEngine",
+            "TrendSpikeEngine",
+            "ContextualTopicEngine"
+        ],
+        "model_version": "1.0.0 (RandomForest Ensemble)"
+    },
+    "coins": {
+        "DOGE": {
+            "trend_label": "neutral",
+            "confidence": 0.828,
+            "probabilities": {
+                "upward": 0.049,
+                "downward": 0.123,
+                "neutral": 0.828
+            },
+            "meme_viral_score": 46.0,
+            "hype_state_score": 0.4705,
+            "spike_flag": false,
+            "spike_intensity": 2.077,
+            "momentum_score": 1.5,
+            "anomaly_pct": 100.0,
+            "sentiment_score": 0.1644,
+            "mentions_per_hour": 6,
+            "top_keywords": [
+                "meme",
+                "hold",
+                "bullish",
+                "early",
+                "wagmi",
+                "pump",
+                "viral",
+                "back",
+                "moon",
+                "dumping"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        },
+        "PEPE": {
+            "trend_label": "neutral",
+            "confidence": 0.814,
+            "probabilities": {
+                "upward": 0.024,
+                "downward": 0.162,
+                "neutral": 0.814
+            },
+            "meme_viral_score": 24.8,
+            "hype_state_score": 0.4389,
+            "spike_flag": false,
+            "spike_intensity": 0.286,
+            "momentum_score": -1.5,
+            "anomaly_pct": 0.0,
+            "sentiment_score": 0.1843,
+            "mentions_per_hour": 1,
+            "top_keywords": [
+                "bullish",
+                "meme",
+                "bearish",
+                "all time high",
+                "hold",
+                "undervalued",
+                "buy the dip",
+                "this is the way",
+                "dead",
+                "alpha"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        },
+        "SHIB": {
+            "trend_label": "neutral",
+            "confidence": 0.815,
+            "probabilities": {
+                "upward": 0.029,
+                "downward": 0.157,
+                "neutral": 0.815
+            },
+            "meme_viral_score": 25.7,
+            "hype_state_score": 0.4385,
+            "spike_flag": false,
+            "spike_intensity": 0.287,
+            "momentum_score": -1,
+            "anomaly_pct": 0.0,
+            "sentiment_score": 0.1139,
+            "mentions_per_hour": 1,
+            "top_keywords": [
+                "meme",
+                "bullish",
+                "hold",
+                "early",
+                "dead",
+                "dip",
+                "100x",
+                "bearish",
+                "undervalued",
+                "trending"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        },
+        "FLOKI": {
+            "trend_label": "neutral",
+            "confidence": 0.818,
+            "probabilities": {
+                "upward": 0.03,
+                "downward": 0.152,
+                "neutral": 0.818
+            },
+            "meme_viral_score": 26.5,
+            "hype_state_score": 0.4259,
+            "spike_flag": false,
+            "spike_intensity": 0.582,
+            "momentum_score": -1,
+            "anomaly_pct": 8.7,
+            "sentiment_score": 0.1034,
+            "mentions_per_hour": 2,
+            "top_keywords": [
+                "dip",
+                "bullish",
+                "early",
+                "meme",
+                "all time high",
+                "bearish",
+                "listed",
+                "hold",
+                "wagmi",
+                "hot"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        },
+        "BONK": {
+            "trend_label": "neutral",
+            "confidence": 0.841,
+            "probabilities": {
+                "upward": 0.029,
+                "downward": 0.13,
+                "neutral": 0.841
+            },
+            "meme_viral_score": 41.0,
+            "hype_state_score": 0.4416,
+            "spike_flag": false,
+            "spike_intensity": 1.622,
+            "momentum_score": 2,
+            "anomaly_pct": 83.3,
+            "sentiment_score": 0.1302,
+            "mentions_per_hour": 5,
+            "top_keywords": [
+                "meme",
+                "hold",
+                "bullish",
+                "dip",
+                "wagmi",
+                "ath",
+                "100x",
+                "buy the dip",
+                "bearish"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        },
+        "WIF": {
+            "trend_label": "neutral",
+            "confidence": 0.827,
+            "probabilities": {
+                "upward": 0.024,
+                "downward": 0.148,
+                "neutral": 0.827
+            },
+            "meme_viral_score": 26.1,
+            "hype_state_score": 0.4621,
+            "spike_flag": false,
+            "spike_intensity": 0.286,
+            "momentum_score": -1,
+            "anomaly_pct": 0.0,
+            "sentiment_score": 0.1484,
+            "mentions_per_hour": 1,
+            "top_keywords": [
+                "hold",
+                "early",
+                "dip",
+                "ath",
+                "bullish",
+                "all time high",
+                "partnership",
+                "announcement",
+                "alpha",
+                "wagmi"
+            ],
+            "predictor": "random_forest",
+            "predicted_at": "2026-03-23T16:59:51Z"
+        }
+    }
+}
